@@ -58,7 +58,7 @@ default = ["trust_anchor_util"]
 trust_anchor_util = []
 
 [dependencies]
-ring = { git = "https://github.com/bruceadams/ring.git" }
+ring = { git = "https://github.com/bruceadams/ring.git", branch = "release-0.6.3" }
 rustc-serialize = "0.3.15"
 time = "0.1"
 untrusted = "0.3"
